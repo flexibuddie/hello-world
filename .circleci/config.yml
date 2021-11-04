@@ -29,10 +29,10 @@ workflows:
   
 
 
-    jobs:
-      build:
-       docker:
-        - image: cimg/base:2020.01
+
+      - build
+
+
       
     steps:
       - checkout
