@@ -27,10 +27,7 @@ workflows:
           requires:
             - print_hello
   
-workflows:
-  test-env-vars:
-    jobs:
-      - build
+
 
     jobs:
       build:
